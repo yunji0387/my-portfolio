@@ -43,7 +43,7 @@
     font-size: 50px;
   }
   
-  @media (max-height: 600px), (max-width: 700px) {
+  @media (max-height: 600px), (max-width: 755px) {
     .navbar {
       top: 60px;
     }
@@ -71,7 +71,7 @@
     }
   }
   
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (max-width: 480px) {
     .navbar {
       top: 40px;
     }
@@ -79,10 +79,10 @@
     .navbar ul li a {
       height: 20px;
       font-size: 15px;
-      padding: 5px 30px;
+      padding: 5px 25px;
     }
   
     .navbar ul li a:hover {
-      font-size: 25px;
+      font-size: 20px;
     }
   }
