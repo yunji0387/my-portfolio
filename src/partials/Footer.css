@@ -16,8 +16,8 @@
     align-items: inherit;
     width: 100%;
     margin-top: 0px;
-    height: 35px;
-    background-color: aqua;
+    height: 85px;
+    /* background-color: aqua; */
   }
   
   .footer-text {
@@ -34,24 +34,28 @@
   
   @media (max-height: 600px), (max-width: 700px) {
     .social-icon {
-      height: 35px;
+      /* height: 85px; */
       padding: 0px;
-    }
-    
-    .social-icon-text {
-      font-size: 13px;
     }
   
     .footer-text  {
       font-size: 15px;
-      height: 10px;
-      margin-top: -8px;
+      height: 20px;
+      margin-top: -7px;
     }
   }
   
+  @media (max-width: 600px) {
+    .social-icon {
+      /* height: 85px; */
+      padding: 0px;
+    }
+    
+  }
+
   @media (min-width: 320px) and (max-width: 480px) {
     .social-icon {
-      height: 30px;
+      height: 70px;
     }
     
     .social-icon-text {

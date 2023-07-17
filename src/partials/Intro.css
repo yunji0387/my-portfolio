@@ -1,0 +1,43 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(7, 44, 10);
+  border-top: 5px solid rgb(212, 190, 143); /* Add a 2px solid black top border */
+  border-bottom: 5px solid rgb(212, 190, 143);
+  width: 100%;
+}
+
+.intro-section {
+  /* background-color: blueviolet; */
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Bangers", cursive;
+  /* font-family: 'Rubik Mono One', sans-serif; */
+  /* font-family: 'Anton', sans-serif; */
+  /* font-family: "Holtwood One SC", serif; */
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  font-weight: 9000;
+  color: rgb(248, 245, 245);
+  /* -webkit-text-stroke: 1px white; */
+  text-shadow: 2px 0 rgb(53, 83, 63);
+  /* background-color: aliceblue; */
+  padding: 25px 5%;
+  /* background-color: antiquewhite; */
+  width: 700px;
+}
+
+@media (max-width: 700px) {
+  .intro-text {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+}
