@@ -43,9 +43,9 @@ const Navbar = () => {
           <div className="dropdown">
             <button className="dropbtn testing" id="dropBtn" onClick={showDropDown}>More</button>
             <div className="dropdown-content" id="dropdownContent">
-              <Link to="/" >Resume</Link>
-              <Link to="/" >Projects</Link>
-              <Link to="/" >Contact</Link>
+              <Link to="/resume" >Resume</Link>
+              <Link to="/projects" >Projects</Link>
+              <Link to="/contact" >Contact</Link>
             </div>
           </div>
         </li>

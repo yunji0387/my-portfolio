@@ -1,13 +1,13 @@
 import React from 'react';
 import Intro from '../components/Intro';
-import './About.css';
+import './Contact.css';
 
-function About() {
+function Contact() {
   return (
-    <div className="about-content">
+    <div className="contact-content">
         <Intro text="Coming Soon..."/>
     </div>
   );
 }
 
-export default About;
+export default Contact;

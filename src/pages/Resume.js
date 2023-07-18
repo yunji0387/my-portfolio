@@ -1,13 +1,13 @@
 import React from 'react';
 import Intro from '../components/Intro';
-import './About.css';
+import './Resume.css';
 
-function About() {
+function Resume() {
   return (
-    <div className="about-content">
+    <div className="resume-content">
         <Intro text="Coming Soon..."/>
     </div>
   );
 }
 
-export default About;
+export default Resume;
