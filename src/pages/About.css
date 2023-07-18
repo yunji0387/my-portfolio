@@ -1,4 +1,7 @@
 .content {
-    padding-top: 25px;
-    width: 90%;
+    background-color: aqua;
+    margin-top: 150px;
+    /* padding-top: 25px; */
+    width: 100%;
+    height: 500px;
   }
