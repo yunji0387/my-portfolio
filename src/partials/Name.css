@@ -77,16 +77,13 @@
 }
 
 
- /* @media (max-height: 800px) {
+@media (max-height: 700px) {
   .greed-text {
     padding-top: 10px
   }
-
-  .name-text {
-
-  }
 }
 
+/*
 @media (max-height: 720px) {
   .greed-text {
     padding-top: 0px

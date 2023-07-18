@@ -8,7 +8,9 @@ function Home() {
     return (
         <div className="home">
             <Name />
-            <Intro text={introText}/>
+            <div className="home-intro">
+                <Intro text={introText}/>
+            </div>
         </div>
     );
 }
