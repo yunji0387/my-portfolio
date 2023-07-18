@@ -43,7 +43,7 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 750px),(max-height: 700px) {
   .greed-text {
     font-size: 35px;
     padding-top: 95px
