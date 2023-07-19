@@ -1,14 +1,12 @@
 import React from 'react';
-import './Intro.css';
+import './Band.css';
 
 const Intro = (props) => {
     return (
-        <div className="intro">
-            <div className="intro-section">
-                <p className="intro-text">
-                    {props.text}
-                </p>
-            </div>
+        <div className="band">
+            <p className="band-text">
+                {props.text}
+            </p>
         </div>
     );
 };

@@ -19,6 +19,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import resume from '../assets/pdfs/my_resume_july2023.pdf';
 
 const Navbar = () => {
 
@@ -43,7 +44,7 @@ const Navbar = () => {
           <div className="dropdown">
             <button className="dropbtn testing" id="dropBtn" onClick={showDropDown}>More</button>
             <div className="dropdown-content" id="dropdownContent">
-              <Link to="/resume" >Resume</Link>
+              <a href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
               <Link to="/projects" >Projects</Link>
               <Link to="/contact" >Contact</Link>
             </div>
