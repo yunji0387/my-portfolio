@@ -1,11 +1,13 @@
 import React from 'react';
-import Intro from '../components/Intro';
+import SubTitle from '../components/SubTitle';
+import Content from '../components/Content';
 import './About.css';
 
 function About() {
   return (
-    <div className="about-content">
-        <Intro text="Coming Soon..."/>
+    <div className="about">
+      <SubTitle title="About" />
+      <Content />
     </div>
   );
 }

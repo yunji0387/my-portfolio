@@ -1,11 +1,13 @@
 import React from 'react';
-import Intro from '../components/Intro';
+import SubTitle from '../components/SubTitle';
+import Content from '../components/Content';
 import './Contact.css';
 
 function Contact() {
   return (
-    <div className="contact-content">
-        <Intro text="Coming Soon..."/>
+    <div className="contact">
+      <SubTitle title="Contact" />
+      <Content />
     </div>
   );
 }
