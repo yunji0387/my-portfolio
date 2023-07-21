@@ -1,5 +1,8 @@
 .navbar {
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -34,17 +37,19 @@
   font-family: "Rubik Mono One", sans-serif;
   transition: 0.1s;
   width: 150px;
-  background-color: aquamarine;
+  /* background-color: black; */
 }
 
 .navbar ul li a:hover {
   font-size: 50px;
   width: 250px;
+  /* background-color: black; */
 }
 
 .dropdown .dropbtn:hover {
   font-size: 50px;
   width: 300px;
+  /* background-color: black; */
 }
 
 /*-------------------------*/
@@ -78,7 +83,6 @@
 }
 
 .dropdown-content a:hover {
-  /* background-color: rgb(212, 190, 143); */
   background-color: rgb(7, 39, 0);
   border: 2px solid rgb(212, 190, 143);
   padding: 0px 50px;
@@ -106,7 +110,7 @@
 
 @media (max-height: 600px), (max-width: 700px) {
   .navbar {
-    top: 60px;
+    /* top: 60px; */
   }
 
   .navbar ul li a, .navbar ul li .dropbtn {
@@ -183,9 +187,9 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px), (max-height: 600px){
   .navbar {
-    top: 40px;
+    height: 60px;
   }
 
   .navbar ul li a, .navbar ul li .dropbtn {
@@ -223,3 +227,59 @@
     font-size: 30px;
   }
 }
+
+@media (max-height: 400px){
+  .dropdown .dropdown-content a {
+    background-color: rgb(7, 39, 0);
+    border: 2px solid rgb(212, 190, 143);
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: -10px;
+    padding: 1px 1px;
+  }
+  
+  .dropdown-content a:hover {
+    padding: 5px 30px;
+    padding-bottom: 0px;
+    margin-left: -55px;
+    font-size: 30px;
+  }
+}
+@media (max-width: 350px){
+  .navbar {
+    height: 60px;
+  }
+
+  .navbar ul li a, .navbar ul li .dropbtn {
+    width: 70px;
+    font-size: 12px;
+    padding: 5px 0px;
+  }
+
+  .navbar ul li a:hover {
+    font-size: 20px;
+    width: 100px;
+  }
+
+  .dropdown .dropbtn:hover {
+    font-size: 20px;
+    width: 100px;
+  }
+  
+  .navbar ul li .dropbtn {
+    width: 100px;
+  }
+
+  .dropdown .dropdown-content a {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  
+  .dropdown-content a:hover {
+    padding: 1px 20px;
+    padding-bottom: 0px;
+    margin-left: -22px;
+    font-size: 20px;
+  }
+}
+
