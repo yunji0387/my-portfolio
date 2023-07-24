@@ -326,6 +326,40 @@
   }
 }
 
+@media (min-width: 640px) and (max-height: 300px) {
+  .projects-content {
+    height: 80px;
+    margin-top: 70px;
+  }
+
+  .project-card {
+    height: 50px;
+  }
+
+  .project-card-description {
+    height: 50px;
+  }
+
+  .project-card-description-title {
+    height: 20px;
+    font-size: 20px;
+  }
+  
+  .project-card-description-info {
+    margin-left: -15px;
+    width: 250px;
+    height: 20px;
+    margin-top: -15px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 640px) and (max-height: 300px) {
+  .projects-section {
+    margin-top: 15px;
+  }
+}
+
 @media (max-width: 639px) and (max-height: 850px) {
   .projects-content {
     height: 400px;

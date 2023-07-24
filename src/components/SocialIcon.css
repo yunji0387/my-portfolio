@@ -50,7 +50,6 @@
 
 @media (max-width: 350px), (max-height: 550px) {
   .social-icon-img-size {
-    padding-top: 35px;
     height: 35px;
     width: 35px;
   }

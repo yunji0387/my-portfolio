@@ -38,6 +38,12 @@
     }
 }
 
+@media (max-height: 320px){
+    .home {
+        margin-top: -65px;
+    }
+}
+
 @media (max-width: 1000px){
     .home {
         transform: scale(0.8);
@@ -56,7 +62,7 @@
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px),(max-height:300px){
     .home {
         transform: scale(0.5);
     }

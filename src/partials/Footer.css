@@ -17,6 +17,7 @@
     width: 100%;
     margin-top: 0px;
     height: 85px;
+    z-index: 1;
   }
   
   .footer-text {
@@ -63,6 +64,21 @@
       font-size: 15px;
       height: 20px;
       margin-top: -5px;
+      margin-bottom: 8px;
+    }
+  }
+
+  @media (max-height: 550px){
+    .footer {
+      height: 80px;
+    } 
+
+    .social-icon{
+      height: 50px;
+    }
+
+    .footer-text  {
+      margin-top: -15px;
       margin-bottom: 8px;
     }
   }

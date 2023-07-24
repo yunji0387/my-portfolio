@@ -86,7 +86,7 @@
       }    
 }
 
-@media (max-height: 280px){
+@media (max-height: 300px){
     .subtitle {
         height: 15px;
         margin-top: 40px;
