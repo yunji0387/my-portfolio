@@ -228,7 +228,7 @@
 
 @media (max-height: 330px) {
   .contact-content {
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 
   .contact-content-section {
@@ -252,7 +252,15 @@
   }
 }
 
-@media (max-height: 290px) {
+@media (max-height: 300px) {
+  .contact-content-section {
+    height: 100px;
+  }
+
+  .contact-content-text-unavailable {
+    display: none;
+  }
+
   .contact-content-section {
     margin-top: -8px;
   }
