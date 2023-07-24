@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Name.css';
+import TsuyuIcon from '../assets/images/tsuyuFace.png';
+import CrownIcon from '../assets/images/crown.png';
 
 const Name = () => {
     const fontFamilies = [
@@ -30,7 +32,13 @@ const Name = () => {
     return (
         <div className="name">
             <div className="name-section">
-                <p className="greed-text">Hi, I am</p>
+                <div className="greed-text-section">
+                    <p className="greed-text">Hi, I am</p>
+                    <div className="mini-icon-section">
+                    <img src={TsuyuIcon} alt="Tsuyu Icon" className="tsuyu-icon" />
+                    <img src={CrownIcon} alt="Crown Icon" className="crown-icon" />
+                    </div>
+                </div>
                 <div className="name-text-section">
                     <p
                         className="name-text"
