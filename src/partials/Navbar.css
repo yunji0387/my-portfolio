@@ -84,7 +84,8 @@
 
 .dropdown-content a:hover {
   background-color: rgb(7, 39, 0);
-  border: 2px solid rgb(212, 190, 143);
+  /* border: 2px solid rgb(212, 190, 143); */
+  border: 2px solid yellow;
   padding: 0px 50px;
   padding-top: 2px;
   border-radius: 5px;
@@ -93,26 +94,9 @@
   height: 55px;
 }
 
-.testing {
-  color: yellow;
-}
-
-/* .dropdown .dropbtn + .dropdown-content a  {
-}
-
-.dropdown .dropbtn + .dropdown-content a:hover  {
-} 
-
-.dropdown-content a:hover + .dropbtn {
-} */
-
 /*-------------------------*/
 
 @media (max-height: 600px), (max-width: 700px) {
-  .navbar {
-    /* top: 60px; */
-  }
-
   .navbar ul li a, .navbar ul li .dropbtn {
     font-size: 25px;
     padding: 5px 30px;
@@ -179,7 +163,6 @@
   }
   
   .dropdown-content a:hover {
-    /* padding: 5px 20px; */
     padding-bottom: 0px;
     margin-left: -55px;
     font-size: 35px;
