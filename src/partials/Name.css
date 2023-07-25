@@ -88,7 +88,7 @@
 
 .name-text:hover {
   color: pink;
-  cursor: default;
+  cursor:crosshair;
 }
 
 .small-info-text {
