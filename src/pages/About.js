@@ -4,7 +4,7 @@ import Content from '../components/Content';
 import './About.css';
 
 function About() {
-  const introText = "I am a recent Computer Science graduates with a strong passion for coding and and a keen interest in web and software development. While I may not have prior professional experience in the field, I am highly motivated to pursue a career in coding, willing to learn new skills, and contribute to a dynamic team.";
+  const introText = "Recent Computer Science graduates with a strong passion for coding and full-stack development. While I may not have prior professional experience in the field, I am highly motivated to pursue a career in full-stack development, willing to learn new skills and contribute to a dynamic team.";
   return (
     <div className="about">
       <SubTitle title="About" />
