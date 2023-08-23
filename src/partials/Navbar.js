@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import resume from '../assets/pdfs/my_resume_july2023.pdf';
+import resume from '../assets/pdfs/my_resume_aug2023.pdf';
 
 const Navbar = () => {
 
