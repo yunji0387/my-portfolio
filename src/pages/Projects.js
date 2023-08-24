@@ -4,7 +4,7 @@ import SubTitle from '../components/SubTitle';
 import './Projects.css';
 import '../components/Band.css';
 import dailyWebLogo from '../assets/images/yourDailyWebLogo.png';
-import miniGameLogo from '../assets/images/miniShield.png';
+import skyCastLogo from '../assets/images/skyCast.png';
 
 function Projects() {
   return (
@@ -14,14 +14,14 @@ function Projects() {
         <div className="band">
           <p className="project-description">Hit the box to view the web</p>
           <div className="projects-content">
-            <Link to="http://minigames-app-3c6a32fb25e7.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-card ">
-              <img src={miniGameLogo} alt="Mini Game Web Logo" className="project-card-img" />
+            <Link to="https://sky-cast-854836ef4892.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-card ">
+              <img src={skyCastLogo} alt="Sky Cast Weather" className="project-card-img" />
               <div className="project-card-description">
                 <p className="project-card-description-title">
-                  Mini Games Web
+                  Weather App
                 </p>
                 <p className="project-card-description-info">
-                  A simple web with collections of mini games.
+                  A simple web showing current and forecast weather.
                 </p>
               </div>
             </Link>
