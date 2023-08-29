@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import SubTitle from '../components/SubTitle';
 import './Projects.css';
 import '../components/Band.css';
-import dailyWebLogo from '../assets/images/yourDailyWebLogo.png';
 import skyCastLogo from '../assets/images/skyCast.png';
+import gitHubLogo from '../assets/images/github.png';
 
 function Projects() {
   return (
@@ -26,14 +26,14 @@ function Projects() {
               </div>
             </Link>
 
-            <Link to="https://dailyweb-51c4ca40411a.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="project-card ">
-              <img src={dailyWebLogo} alt="Daily Web Logo" className="project-card-img" style={{ backgroundColor: 'aliceblue' }} />
+            <Link to="https://github.com/yunji0387" target="_blank" rel="noopener noreferrer" className="project-card ">
+              <img src={gitHubLogo} alt="GitHub Logo" className="project-card-img" />
               <div className="project-card-description">
                 <p className="project-card-description-title">
-                  Your Daily Web
+                  More Projects
                 </p>
                 <p className="project-card-description-info">
-                  A website that provides basic information.
+                  information available on my GitHub profiles.
                 </p>
               </div>
             </Link>
