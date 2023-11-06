@@ -4,8 +4,7 @@ import './About.css';
 import '../components/Band.css';
 
 function About() {
-  const introText = "Recent Computer Science graduates with a strong passion for coding and full-stack development. While I may not have prior professional experience in the field, I am highly motivated to pursue a career in full-stack development, willing to learn new skills and contribute to a dynamic team.";
-  const introText1 = "Recent Computer Science graduates";
+  const introText1 = "Computer Science graduates";
   const introText2 = "Open to work ";
   const introText3 = "Interested in: ";
   const introText4 = "Web/Software development";

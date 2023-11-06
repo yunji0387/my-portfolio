@@ -48,7 +48,7 @@ const Name = () => {
                         Yun Ji How
                     </p>
                 </div>
-                <p className="small-info-text">&#x2022; Recent Graduate &#x2022; Open to work &#x2022; Interested in Coding &#x2022;</p>
+                <p className="small-info-text">&#x2022; Computer Graduate &#x2022; Open to work &#x2022;</p>
             </div>
         </div>
     );
