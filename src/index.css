@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(22, 110, 14);
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     rgb(1, 36, 1),
     rgb(12, 83, 6),
@@ -17,10 +17,10 @@ body {
     rgb(1, 36, 1)
   );
   background-size: 300% 300%;
-  animation: AnimateBG 10s ease infinite;
+  animation: AnimateBG 10s ease infinite; */
 }
 
-@keyframes AnimateBG {
+/* @keyframes AnimateBG {
   0% {
     background-position: 0% 50%;
   }
@@ -30,7 +30,7 @@ body {
   100% {
     background-position: 0% 50%;
   }
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
